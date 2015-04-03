@@ -37,40 +37,40 @@
 
 ###Mandelbrot集
 
-![Mandelbrot集](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_1.png)
+![Mandelbrot集](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_1.png)
 
 ###Newton集
 
-![Newton集](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_3.png)
+![Newton集](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_3.png)
 
 ###逃逸迭代法画图板
 
-![逃逸法画图板](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_2.png)
+![逃逸法画图板](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_2.png)
 
 ###LS文法绘图曲线
 
-![LS文法绘图曲线](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_4.png)
+![LS文法绘图曲线](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_4.png)
 
 ###LS文法绘图曲线画图板
 
-![LS文法绘图曲线](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_5.png)
+![LS文法绘图曲线](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_5.png)
 
 ###函数曲线
 
-![函数曲线](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_6.png)
+![函数曲线](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_6.png)
 
 ###函数曲线画图板
 
-![函数曲线](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_7.png)
+![函数曲线](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_7.png)
 
 ###IFS码绘图曲线
 
-![IFS码绘图曲线](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_8.png)
+![IFS码绘图曲线](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_8.png)
 
 ###IFS码画图板
 
-![IFS码画图板](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_9.png)
+![IFS码画图板](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_9.png)
 
 ###分形动画
 
-![分形动画](https://github.com/waruqi/fractal/blob/master/res/Snip20150403_12.png)
+![分形动画](https://raw.githubusercontent.com/waruqi/fractal/master/res/Snip20150403_12.png)
