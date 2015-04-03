@@ -34,3 +34,7 @@
 6. 四元数分形
    - 没来得及实现
    
+
+###Mandelbrot集
+
+![Mandelbrot](res/Snip20150403_1.png)
