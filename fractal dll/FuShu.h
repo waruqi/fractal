@@ -10,41 +10,41 @@
 class FuShu  
 {
 public:
-	long double b;//a+bi
-	long double a;
+    long double b;//a+bi
+    long double a;
 public:
-	friend FuShu operator+(long double m,FuShu f);
-	friend FuShu operator-(long double m,FuShu f);
-	friend FuShu operator*(long double m,FuShu f);
-	friend FuShu operator/(long double m,FuShu f);
+    friend FuShu operator+(long double m,FuShu f);
+    friend FuShu operator-(long double m,FuShu f);
+    friend FuShu operator*(long double m,FuShu f);
+    friend FuShu operator/(long double m,FuShu f);
 
-	FuShu operator++();//前缀自增
-	FuShu operator++(int);//后缀自增
+    FuShu operator++();//前缀自增
+    FuShu operator++(int);//后缀自增
 
-	FuShu operator=(long double m);
-	FuShu operator*(long double m);
-	FuShu operator-(long double m);
-	FuShu operator+(long double m);
-	FuShu operator/(long double m);
+    FuShu operator=(long double m);
+    FuShu operator*(long double m);
+    FuShu operator-(long double m);
+    FuShu operator+(long double m);
+    FuShu operator/(long double m);
 
-	//FuShu operator=(FuShu f);
-	FuShu operator*(FuShu f);
-	FuShu operator-(FuShu f);
-	FuShu operator+(FuShu f);
-	FuShu operator/(FuShu f);
-	
+    //FuShu operator=(FuShu f);
+    FuShu operator*(FuShu f);
+    FuShu operator-(FuShu f);
+    FuShu operator+(FuShu f);
+    FuShu operator/(FuShu f);
+    
 public:
-	FuShu();
-	FuShu(long double m);
-	FuShu(long double m,long double n);
-	virtual ~FuShu();
+    FuShu();
+    FuShu(long double m);
+    FuShu(long double m,long double n);
+    virtual ~FuShu();
 
 public:
-	long double m();//复数模
-	long double m2();//复数模的平方
-	void Get(long double m,long double n);
-	void Get(long double m);
-	void Get(FuShu f);
+    long double m();//复数模
+    long double m2();//复数模的平方
+    void Get(long double m,long double n);
+    void Get(long double m);
+    void Get(FuShu f);
 
 };
 

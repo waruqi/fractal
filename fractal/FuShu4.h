@@ -10,43 +10,43 @@
 class FuShu4  
 {
 public:
-	long double w;//w+xi+yj+zk
-	long double x;
-	long double y;
-	long double z;
+    long double w;//w+xi+yj+zk
+    long double x;
+    long double y;
+    long double z;
 public:
-	friend FuShu4 operator+(long double m,FuShu4 f);
-	friend FuShu4 operator-(long double m,FuShu4 f);
-	friend FuShu4 operator*(long double m,FuShu4 f);
-	friend FuShu4 operator/(long double m,FuShu4 f);
+    friend FuShu4 operator+(long double m,FuShu4 f);
+    friend FuShu4 operator-(long double m,FuShu4 f);
+    friend FuShu4 operator*(long double m,FuShu4 f);
+    friend FuShu4 operator/(long double m,FuShu4 f);
 
-	FuShu4 operator++();//前缀自增
-	FuShu4 operator++(int);//后缀自增
+    FuShu4 operator++();//前缀自增
+    FuShu4 operator++(int);//后缀自增
 
-	FuShu4 operator=(long double m);
-	FuShu4 operator*(long double m);
-	FuShu4 operator-(long double m);
-	FuShu4 operator+(long double m);
-	FuShu4 operator/(long double m);
+    FuShu4 operator=(long double m);
+    FuShu4 operator*(long double m);
+    FuShu4 operator-(long double m);
+    FuShu4 operator+(long double m);
+    FuShu4 operator/(long double m);
 
-	//FuShu4 operator=(FuShu4 f);
-	FuShu4 operator*(FuShu4 f);
-	FuShu4 operator-(FuShu4 f);
-	FuShu4 operator+(FuShu4 f);
-	FuShu4 operator/(FuShu4 f);
-	
+    //FuShu4 operator=(FuShu4 f);
+    FuShu4 operator*(FuShu4 f);
+    FuShu4 operator-(FuShu4 f);
+    FuShu4 operator+(FuShu4 f);
+    FuShu4 operator/(FuShu4 f);
+    
 public:
-	FuShu4();
-	FuShu4(long double m);
-	FuShu4(long double m,long double a,long double b,long double c);
-	virtual ~FuShu4();
+    FuShu4();
+    FuShu4(long double m);
+    FuShu4(long double m,long double a,long double b,long double c);
+    virtual ~FuShu4();
 
 public:
-	long double m();//复数模
-	long double m2();//复数模的平方
-	void Get(long double m,long double a,long double b,long double c);
-	void Get(long double m);
-	void Get(FuShu4 f);
+    long double m();//复数模
+    long double m2();//复数模的平方
+    void Get(long double m,long double a,long double b,long double c);
+    void Get(long double m);
+    void Get(FuShu4 f);
 
 };
 
